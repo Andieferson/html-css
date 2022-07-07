@@ -8,27 +8,37 @@
 
 <style>
     body{
-        position: relative;
-        height: 97vh;
         background-image: url('imagens/espaco.jpg');
-        background-position: center center;
         background-size: 100% 100%;
-    }
+       
+        position: relative;
+        height: 96vh;
+        background-position: center center;
+        
+        
+ }
 
     #frente {
+        background-image: url('imagens/astronauta.png');
+        background-size: 100% 100%;
+
         position: absolute;
-       background-image: url('imagens/astronauta.png');
-       background-position: center center;
+        height: 320px;
+        width:  320px;
 
+        left: 50%;
+        top: 50%;
 
-    }
+        transform: translate(-50%,-50%);
+    } 
+
 
 </style>
 </head>
 <body>
-  <main>
+  <article>
       <div id="frente"></div>
-  </main>
+  </article>
     
 </body>
 </html>
