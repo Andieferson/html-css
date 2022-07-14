@@ -5,10 +5,9 @@
     padding: 0px;
 }
 
-body {
+html, body {
     min-height: 100vh;
-    background-color: white;
-    color: black;
+    background-color: darkgray;
 }
 
 header {
@@ -45,6 +44,20 @@ section {
     padding-left: 30px;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p {
+    width: 300px;
+    background-color:rgb(37, 37, 37);
+}
 
 footer { 
     background-color: black;
